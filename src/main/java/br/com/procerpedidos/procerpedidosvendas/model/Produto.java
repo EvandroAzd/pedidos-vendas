@@ -11,8 +11,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Produto {
     private String descricao;
-    private double preco;  // valor vendido para cliente
-    private double custo;  // valor do fornecedor
+    //private double precoVenda;  // valor vendido para cliente
+    private double precoCusto;  // valor do fornecedor
     private UnidadeMedida unidadeMedida;
 
     // estoque, modelar classe a parte

@@ -1,5 +1,7 @@
 package br.com.procerpedidos.procerpedidosvendas.model;
 
-public class Venda {
+import java.util.List;
 
+public abstract class Venda {
+    private List<Produto> produtos;
 }
